@@ -6,7 +6,12 @@ export  default function Cardapio(){
         <main>
             <nav className={style.menu}>
                 <Logo/>
-                </nav>
+            </nav>
+            <header className={style.header}>
+                <div className={style.header__text}>
+                    A Casa do codido e da massa
+                </div>
+            </header>
         </main>
     )    
 }
